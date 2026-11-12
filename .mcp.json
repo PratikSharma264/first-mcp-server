@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "django-toolkit": {
+      "type": "stdio",
+      "command": ".venv\\Scripts\\python.exe",
+      "args": ["manage.py", "runmcp"],
+      "tools": ["*"]
+    }
+  }
+}
